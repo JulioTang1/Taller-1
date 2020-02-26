@@ -1,0 +1,157 @@
+
+body {
+    background:#e9e9e9;
+}
+
+.logo{
+  background-size: cover;
+  position: absolute;
+  width: 105px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+#contenedor {
+    width: 960px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+header {
+    height: 130px;
+    background: #00437a;
+    padding-top: 10px;
+}
+
+nav {
+    background: #cca338;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 50px;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size: 17px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* cambia el color del item cuando el puntero
+   se posa sobre el*/
+  li a:hover {
+    background-color: #b40808;
+    color: white;
+  }
+
+.contenido {
+    width: auto;
+    height: auto;
+    background: white;
+   /* margin-right: 15px;*/
+    /*margin-bottom: 15px;*/
+    border-radius: 5px;
+
+}
+.contenido h2 {
+    color: #b40808;
+    margin: 20px 15px 15px 30px;
+}
+
+.contenido p {
+    color: silver;
+    margin: 0px 15px 15px 30px;
+    font-style: oblique;
+}
+
+.contenido h4 {
+  color: black;
+  margin: 0px 15px 15px 30px;
+  font-size: 16px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: justify;
+}
+
+/*unicación de sidebar*/
+#top-sidebar {
+    text-align: left;
+    height: auto;
+    background-color: white;
+    padding: 0;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+  #top-sidebar h2{
+    color: #00437a;
+    margin: 20px 0px 15px 15px;
+  }
+  
+  #top-sidebar p{
+    margin: 0px 15px 15px 15px;
+  }
+  
+  #middle-sidebar {
+    text-align: left;
+    height: auto;
+    background-color: white;
+    padding: 0;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+
+  #middle-sidebar h2{
+    color: #00437a;
+    margin: 20px 0px 15px 15px;
+  }
+  #middle-sidebar p{
+    margin: 0px 15px 15px 15px;
+  }
+  
+  #bottom-sidebar {
+    text-align: left;
+    height: auto;
+    background-color: white;
+    padding: 0;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+
+  #bottom-sidebar h2{
+    color: #00437a;
+    margin: 20px 0px 15px 15px;
+  }
+  #bottom-sidebar p{
+    margin: 0px 15px 15px 15px;
+  }
+
+footer {
+      clear: both;
+      height: 50px;
+      background: #00437a;
+      border-radius: 5px;
+  }
+
+footer h6 {
+    margin-left: 35px;  
+    line-height: 50px;
+    color: white;
+}
